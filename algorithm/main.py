@@ -1,7 +1,9 @@
+
 import time
-from search import binary_search
+from search import binary_search, create_list
 from ru_en_list import ru_en_keyboard_layaout
 
+create_list()
 
 def fix_input(text):
     result = ''
